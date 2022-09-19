@@ -4,8 +4,9 @@
 (defpackage :usocket
   (:use #-genera :common-lisp
         #+genera :future-common-lisp
-	#+abcl :java
-	:split-sequence)
+        #+abcl   :java)
+  (:import-from #:split-sequence
+                #:split-sequence)
   (:export   #:*version*
              #:*wildcard-host*
              #:*auto-port*
