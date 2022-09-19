@@ -110,18 +110,18 @@
              #:host-to-hostname
 
              ;; socket-related conditions from IOlib
-             #:ADDRESS-NOT-AVAILABLE-ERROR #:HOST-DOWN-ERROR
-             #:OPERATION-NOT-SUPPORTED-ERROR #:SOCKET-OPTION
-             #:NETWORK-DOWN-ERROR #:INVALID-SOCKET-ERROR
-             #:SOCKET-TYPE-NOT-SUPPORTED-ERROR #:DEADLINE-TIMEOUT-ERROR
-             #:SHUTDOWN-ERROR #:HOST-UNREACHABLE-ERROR
-             #:NETWORK-UNREACHABLE-ERROR #:CONNECTION-ABORTED-ERROR
-             #:BAD-FILE-DESCRIPTOR-ERROR #:PROTOCOL-NOT-SUPPORTED-ERROR
-             #:CONNECTION-RESET-ERROR #:TIMEOUT-ERROR
-             #:ADDRESS-IN-USE-ERROR #:NO-BUFFERS-ERROR
-             #:INVALID-SOCKET-STREAM-ERROR #:INTERRUPTED-CONDITION
-             #:INVALID-ARGUMENT-ERROR #:OPERATION-NOT-PERMITTED-ERROR
-             #:NETWORK-RESET-ERROR #:CONNECTION-REFUSED-ERROR
+             #:address-not-available-error #:host-down-error
+             #:operation-not-supported-error #:socket-option
+             #:network-down-error #:invalid-socket-error
+             #:socket-type-not-supported-error #:deadline-timeout-error
+             #:shutdown-error #:host-unreachable-error
+             #:network-unreachable-error #:connection-aborted-error
+             #:bad-file-descriptor-error #:protocol-not-supported-error
+             #:connection-reset-error #:timeout-error
+             #:address-in-use-error #:no-buffers-error
+             #:invalid-socket-stream-error #:interrupted-condition
+             #:invalid-argument-error #:operation-not-permitted-error
+             #:network-reset-error #:connection-refused-error
 
              ;; added in 0.8.2
              #:host-or-ip
